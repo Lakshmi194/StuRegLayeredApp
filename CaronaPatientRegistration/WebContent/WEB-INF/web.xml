@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>patient</servlet-name>
+<servlet-class>com.nt.controller.MainControllerServlet</servlet-class>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+<servlet-name>patient</servlet-name>
+<url-pattern>/purl</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>info.html</welcome-file>
+</welcome-file-list>
+</web-app>
